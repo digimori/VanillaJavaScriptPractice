@@ -230,10 +230,13 @@ Questions
 .question-text p {
   margin-bottom: 0;
 }
-/* hide text */
-/* .question-text {
+
+/* hide text on load*/
+.question-text {
   display: none;
 }
+
+/* Show texts */
 .show-text .question-text {
   display: block;
 }
@@ -245,4 +248,4 @@ Questions
 }
 .show-text .plus-icon {
   display: none;
-} */
+} 
